@@ -12,7 +12,7 @@ SyncSpace is a feature-rich video conferencing application built to simplify vir
 
 ## Live Preview
 
-Check out a live preview of SyncSpace [https://syncspace.vercel.app](https://syncspace.vercel.app).
+Check out a live preview of SyncSpace [https://syncspace-arj.vercel.app](https://syncspace-arj.vercel.app).
 
 ## Tech Stack
 
