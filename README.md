@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SyncSpace
 
-## Getting Started
+SyncSpace is a feature-rich video conferencing application built to simplify virtual communication. With capabilities such as creating new meetings, scheduling meetings, joining meetings, viewing your profile, and holding test meetings, SyncSpace offers a streamlined and user-friendly experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Create New Meetings**: Host instant video calls with ease.
+- **Schedule Meetings**: Plan meetings for a future date and time.
+- **Join Meetings**: Quickly join meetings with a unique meeting link.
+- **User Profiles**: View and manage your profile information.
+- **Test Meeting**: Hold a test meeting by yourself to check your video/audio settings before the actual meeting.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Preview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Check out a live preview of SyncSpace [https://syncspace.vercel.app](https://syncspace.vercel.app).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+- **Frontend Framework**: [Next.js](https://nextjs.org/) (React Framework)
+- **Programming Language**: [TypeScript](https://www.typescriptlang.org/) (Typed JavaScript)
+- **UI Components**: [ShadCN UI](https://shadcn.dev/) (Utility-first components built for React)
+- **User Authentication**: [Clerk](https://clerk.dev/) (Authentication and user management)
+- **Real-Time Communication**: [Stream API](https://getstream.io/) (Real-time chat and video APIs)
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Once deployed, you can start using SyncSpace to:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Create New Meetings**: Navigate to the "New Meeting" page and start a call instantly.
+- **Schedule Meetings**: Go to the "Schedule Meeting" page, pick a time and date, and share the meeting link.
+- **Join Meetings**: Use a meeting link to join an ongoing call.
+- **View Your Profile**: Manage your personal information and update your profile settings.
+- **Hold a Test Meeting**: Use the "Test Meeting" option to ensure everything is working smoothly before your real meeting.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We welcome contributions! Here's how you can contribute:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+
+3. Make your changes and commit them:
+
+    ```bash
+    git commit -m "Add some feature"
+    ```
+
+4. Push to the branch:
+
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+5. Open a Pull Request to the `main` branch.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Next.js](https://nextjs.org/) for the amazing framework
+- [ShadCN UI](https://shadcn.dev/) for the UI components
+- [Clerk](https://clerk.dev/) for user authentication
+- [Stream API](https://getstream.io/) for real-time communication services
